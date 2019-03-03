@@ -1,0 +1,62 @@
+h1{
+    font-size:50px;
+    text-align: left;
+    color:white;
+}
+h2{
+    font-size:30px;
+    color:white;
+    font-family: 'Pacifico', cursive;
+}
+p {
+    color:white;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+  }
+  table{
+      color:white;
+      border-color:gray;
+  }
+ol{
+     color:white;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 0px;
+    font-family: 'Pacifico', cursive;
+    
+
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 5px 20px;
+    border: transparent;
+    transition: 0.8s ease;
+}
+  ul li a:hover{
+      background-color:transparent;
+      color: transparent;
+  }
+  h3{
+      font-family: 'Pacifico', cursive;
+      text-align: center;
+      color: white;
+      font-size: 35px;
+
+  }
+ img {
+  opacity: 0.80;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+  border-radius: 8px;
+}
+#user{
+    background-color: transparent;
+    color: white;
+}
+
+  

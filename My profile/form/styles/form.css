@@ -1,0 +1,35 @@
+form{
+    text-align: right;
+    display: inline-block;
+
+}
+input,textarea{
+    box-sizing: border-box;
+    box-decoration-break: clone;
+    
+}
+.button{
+    text-align: right;
+    display: inline-block;
+    padding-top: 1em;
+    
+    
+}
+input:focus,textarea:focus{
+    border-color:black;
+}
+h1,h2,h3{
+    padding-left: 0px;
+    text-align: left;
+}
+body{
+    margin: left;
+    padding: 0px; 
+    border: 10em;  
+    background-color: brown; 
+}
+label{
+    display: inline-block;
+    padding-left: 0em;
+    text-align: right;
+}

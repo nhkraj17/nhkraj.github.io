@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="styles/form.css" rel="stylesheet">
+        <style>
+            body{
+                background:white;
+                background-size:100%;
+            }
+
+        </style>
+        <title>Registration Form</title>
+
+    </head>
+    <body>
+        
+            
+         <form>
+                <fieldset>
+                    <legend>Form</legend>
+                        <div class="images/000.jpg">
+                        <h1>Personal Data</h1>
+            <div>
+                <label for="name"> Name:</label>
+                <input type="text"  placeholder="Name" id="name" name="user-name">
+            </div>
+            <div>
+                <lable for="email"> Email: </lable>
+                <input type="email" id="email" placeholder="E-mail" name="user-email">
+            </div>
+            <div>
+                    <lable for="new-password"> password: </lable>
+                    <input type="password" id="new-password" placeholder="Password"  name="user-passwprd">
+                </div>
+                <div>
+                    <label for="Comfirm-password"> Comfirm-password:</label>
+                    <input type="password" id="Comfirm-password" placeholder="Confirm-password" name="Comfirm-password">
+                </div>
+                <div>
+                    <label for="father-name">Father's Name:</label>
+                    <input type="text" id="father-name" placeholder="Father-name" name="father-name">
+                </div>
+                <div>
+                        <label for="mother-name">Mother's Name:</label>
+                        <input type="text" id="mother-name" placeholder="Mother-name" name="mother-name">
+                </div>
+                <div>
+                    <label for="per-addrs">Permanent-address:</label>
+                    <textarea  id="per-adds"  name="per-addrs"></textarea>
+                </div>
+                <div>
+                        <label for="prs-addrs">Present-address:</label>
+                        <textarea  id="prs-adds" name="prs-addrs"></textarea>
+                </div>
+                <div>
+                        <label for="bday:">Birthday</label>
+                        <input type="date" id="bday" placeholder="Birthday"  name="bday">
+                </div>
+                <div>
+                    <label for="gender">Gender:</label>
+                    <select id="gender"  name="gender" >
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="3rd gender" >3rd Gender</option>
+
+                    </select>
+                </div>
+                <div>
+                    <label for="cell"> Cell-No:</label>
+                    <input type="tel" id="cell" placeholder="Cell-no" name="cellno">
+                </div>
+                <div>
+                <h2>
+                    Educational Qualification
+                 </h2>
+                 <p>
+                     <input type="radio" id="radio1" name="radio1">
+                     <label for="radio1">Graduate</label>
+                     <input type="radio" id="radio2" name="radio2">
+                     <label for="radio2">Under-graduate</label>
+                     <input type="radio" id="radio3" name="radio3">
+                     <label for="radio3">HSC</label>
+                     <input type="radio" id="radio4" name="radio4">
+                     <label for="radio4">SSC</label>
+                 </p>
+                </div>
+                <h3> Post </h3>
+                <div>
+                    
+                    <label for="designation">Designation</label>
+                    <input type="text" id="designation" placeholder="Designation" name="desingnation">
+                </div>
+                <div>
+                    <label for="comite">Committee:</label>
+                    <input type="text" id="comite" placeholder="Committee" name="comite">
+                </div>
+                <div class="button" >
+                    <button type="submit">Save</button>
+
+                </div>
+                <div class="button" >
+                    <button type="reset">Cancel</button>
+
+                </div>
+         
+            </fieldset>  
+         </form>
+       
+       
+    </body>
+</html>
